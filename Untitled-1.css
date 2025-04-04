@@ -1,0 +1,91 @@
+.balk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+a {
+    padding: 5px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: #e0e0e0;
+}
+
+body {
+    font-size: large;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+.voorbeeld {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background: #e9ecef;
+}
+.block-voorbeeld {
+    display: block;
+    background-color:#007BFF ;
+    color: #fff;
+}
+.inline-block-voorbeeld {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    background-color:#28a745 ;
+    color: #fff;
+}
+.inline-voorbeeld {
+    display: inline;
+    color: #fff;
+    background-color: #ffc107;
+}
+.absolute-parent {
+    position: relative;
+    height: 100px;
+    background: #f8f9fa;
+}
+.absolute-child {
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    background: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+   
+    
+}
+.fixed-voorbeeld{
+    position: fixed;
+    background: #28a745;
+    color: #fff;
+    width: 200px;
+    height: 20px;
+    
+}
+
+.relative-voorbeeld {
+    position: relative;
+    top: 10px;
+    background: #ffc107;
+    padding: 10px;
+}
+.static-voorbeeld {
+    position: static;
+    background: #17a2b8;
+    padding: 10px;
+}
